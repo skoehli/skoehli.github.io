@@ -1,0 +1,37 @@
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(174,246,199);
+    background-color: rgb(62,98,89);
+    
+    margin-right: 80px;
+}
+
+
+h1, h2
+{
+    text-align: center;
+}
+
+footer
+{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px; 
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(199,249,250);
+}
+
+a:hover
+{
+    text-decoration:underline;
+}
+
+figure
+{
+    text-align: center;
+}

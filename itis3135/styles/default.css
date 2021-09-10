@@ -72,3 +72,9 @@ tbody tr:nth-child(odd) td
 {
 	background-color: rgb(41, 148, 150);
 }
+
+.button
+{
+    background-color: rgb(50, 41, 47);
+    color: rgb(153, 225, 217);
+}

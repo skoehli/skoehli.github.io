@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <script src="scripts/pepper_calculator.js"></script>
+    <title>Pepper Calculator</title>
+</head> 
+
+<body>
+    <header>
+        <h1>DPS</h1>
+    </header>
+
+    <nav>
+        Damage Per Scoville
+        <a href="index.html">Home</a>
+        <a href="peppers.html">Pepper Gardening</a>
+        <a href="sauces.html">Sauces</a>
+        <a href="sauce_ingredients.html">Ingredients</a>
+        <a href="pepper_calculator.html">Pepper Calculation</a>
+    </nav>
+
+    <main>       
+
+        <h2>Don't Know How Many Peppers You Need For a Batch?</h2>
+
+        <p>
+            Making your own hot sauce can be tricky. You want a good balance of flavor and heat - but this balance can be hard to find, especially if you're
+            just starting out.
+        </p>
+        <p>
+            Luckily, we have developed this tool to help aspiring sauce connoisseurs find a good starting point in terms of heat and flavor while
+            having enough peppers to make their batch of sauces.
+        </p>
+
+        <h3>Using our tool is easy. Here's what you need to do:</h3>
+        <p>
+            All you need to know is the type of sauce you're making and the size of your sauce bottles. 
+        </p>
+        <p>
+            With that in mind, choose the sauce you'd like to make and your sauce bottle size from the dropdown menus below. 
+            Then click the "Calculate" button to find out the number of peppers you need for that sauce.
+        </p>
+
+        <div id="sauce-calc">
+            <p>Select sauce:</p>
+            <select name="sauce" id="sauce" aria-required="true">
+                <option value="sanguinesti">Sanguinesti</option>
+                <option value="hakai">Hakai</option>
+                <option value="stinger">Stinger</option>
+            </select>
+            <br>
+
+            <label for="batch_size">Enter batch size:</label>
+            <input type="text" name="batch_size" id="batch_size" pattern="[0-9]" required><br>
+            
+
+            <button class="button" id="calculate" onclick="calculate()">Calculate</button>
+            
+        </div>
+        <div id="result"></div>
+    
+    </main>
+
+    <footer>
+        
+        <figure>
+            Built by Sarah Dieffenbaugher
+        </figure>
+        <a href="https://validator.w3.org/check?uri=referer">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+		</a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+		</a>
+    </footer>
+</body>
+
+</html>

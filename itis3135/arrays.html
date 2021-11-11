@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <script src="scripts/arrays.js"></script>
+    <title>Arrays</title>
+</head> 
+
+<body>
+    <header>
+        <h1>Sarah Dieffenbaugher ~ ITIS-3135</h1>
+    </header>
+
+    <main>
+        <h2>Array Page</h2>
+        
+            Employee name: <input class="input" type="text" id="employee" placeholder="Enter employee name here">
+            Salary: <input class="input" type="text" id="salary" placeholder="Enter monthly salary here">
+            <button class="button" onclick="addSalary()">Add Employee & Salary</button>
+
+            <br>
+            <label for="employees">Choose an employee:</label>
+            <select name="employees" id="employees">
+                <option value="employee0">Ali Khat</option>
+                <option value="employee1">Ellie Kensa</option>
+                <option value="employee2">Josh Howitzer</option>
+                <option value="employee3">Zenevivia Wiseman</option>
+                <option value="employee4">Yelsa Lowder</option>
+                <option value="employee5">Jessica Gadrin</option>
+                <option value="employee6">Vincent Akinschnit</option>
+                <option value="employee7">Ashton Goddard</option>
+            </select>
+
+        <div id="results">
+            <p id="highest">0</p>
+            <p id="average">0</p>
+            <button class="button" id="displayResults" onclick="displayResults()">Display Results</button>
+        </div>
+
+        <h3>Employee Information</h3>
+        <button class="button" id= "displaySalary" onclick="displaySalary()">Display Salaries</button>
+        <table id="results_table">
+            <thead>
+            <tr>
+				<!--<th>Names</th>
+                <th>Monthly Salaries</th>-->
+			</tr>
+            </thead>
+            
+        </table>
+
+       
+    </main>
+
+    <footer>
+        <nav>
+            <a href="https://www.freecodecamp.org/skoehli" target="_blank"> freeCodeCamp Profile</a> | <a href="https://skoehli.github.io/" target="_blank"> github.io Page</a>
+            | <a href="https://github.com/skoehli" target="_blank"> github Profile</a> | <a href="https://skoehli.github.io/itis3135/" target="_blank"> ITIS-3155 Github Pages</a>
+            | <a href="https://webpages.uncc.edu/skoehli/itis3135/"> UNCC Webpages ITIS-3155 Page</a> | <a href="https://www.linkedin.com/in/sdieff/">LinkedIn Profile</a> 
+            | <a href="introduction.html"> Intro Page</a> | <a href="tables.html"> Tables</a> | <a href="website_evaluations.html"> Webpage Evaluations</a>
+            | <a href="first-scripts.html"> Script Page</a> | <a href="polygon_namer.html"> Polygon Namer</a>
+             | <a href=project/project_rand.html> Project Design</a>
+        </nav>
+        <figure>
+            Built by Stygian Dingo
+        </figure>
+        <a href="https://validator.w3.org/check?uri=referer">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+		</a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+		</a>
+    </footer>
+</body>
+
+</html>
